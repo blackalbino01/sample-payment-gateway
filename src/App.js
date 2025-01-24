@@ -31,7 +31,7 @@ const Paystack = () => {
     <div>
         <button onClick={() => {
             initializePayment(onSuccess, onClose)
-        }}>Paystack</button>
+        }}>Transfer with Paystack</button>
     </div>
   );
 };
