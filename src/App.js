@@ -22,7 +22,7 @@ const onClose = () => {
   console.log('closed')
 }
 
-const style = {"layout":"vertical"};
+const style = {"layout":"vertical", "label" : "pay"};
 
 
 const Paystack = () => {
@@ -31,7 +31,7 @@ const Paystack = () => {
     <div>
         <button onClick={() => {
             initializePayment(onSuccess, onClose)
-        }}>Transfer with Paystack</button>
+        }}>Local Transfer</button>
     </div>
   );
 };
